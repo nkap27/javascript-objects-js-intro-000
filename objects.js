@@ -2,7 +2,7 @@ var playlist = {amos: "keep it loose, keep it tight"};
 
 function updatePlaylist(playlist, artistName, songTitle) {
 
-  return Object.assign({}, playlist, { [artistName]: songTitle })
+  return Object.assign(playlist, playlist, { [artistName]: songTitle })
 }
 
 updatePlaylist(playlist, "Slowdive", "When the Sun Hits");
