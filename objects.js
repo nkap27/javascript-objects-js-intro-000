@@ -13,4 +13,4 @@ function removeFromPlaylist(playlist, artistName) {
   return delete playlist.artistName;
 }
 
-removeFromPlaylist(playlist, Slowdive);
+removeFromPlaylist(playlist, "Slowdive");
