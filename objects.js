@@ -1,1 +1,1 @@
-var playlist = {amos lee: "keep it loose, keep it tight"}
+var playlist = {amos: "keep it loose, keep it tight"}
