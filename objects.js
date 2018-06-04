@@ -1,4 +1,4 @@
-var playlist = {amos: "keep it loose, keep it tight"};
+var playlist = {Amos: "keep it loose, keep it tight"};
 
 function updatePlaylist(playlist, artistName, songTitle) {
 
