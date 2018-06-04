@@ -10,7 +10,7 @@ updatePlaylist(playlist, "My Bloody Valentine", "Good Charlotte");
 updatePlaylist(playlist, "Phil Ochs", "There but for Fortune");
 
 function removeFromPlaylist(playlist, artistName) {
-  return delete playlist.artistName;
+  delete playlist.artistName;
 }
 
 removeFromPlaylist(playlist, "Slowdive");
