@@ -1,3 +1,6 @@
 var playlist = {amos: "keep it loose, keep it tight"};
 
-var updatePlaylist = Object.assign(playlist, "lee", "violin");
+function updatePlaylist(playlist, artistName, songTitle) {
+
+  return Object.assign(playlist, "lee", "violin")
+}
