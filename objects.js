@@ -12,3 +12,5 @@ updatePlaylist(playlist, "Phil Ochs", "There but for Fortune");
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
 }
+
+removeFromPlaylist(playlist, "Slowdive");
