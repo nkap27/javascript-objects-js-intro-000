@@ -8,3 +8,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 updatePlaylist(playlist, "Slowdive", "When the Sun Hits");
 updatePlaylist(playlist, "My Bloody Valentine", "Good Charlotte");
 updatePlaylist(playlist, "Phil Ochs", "There but for Fortune");
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+}
