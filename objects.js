@@ -11,7 +11,7 @@ updatePlaylist(playlist, "Phil Ochs", "There but for Fortune");
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
-  return Object.assign({}, playlist);
+  return Object.assign({});
 }
 
 removeFromPlaylist(playlist, "Slowdive");
